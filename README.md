@@ -1,2 +1,6 @@
-# optimize-all-laravel-command
-A Laravel command to optimize all caches
+Optimize:all Laravel command
+============================
+
+A Laravel command to cache everything that needs to be cached.
+
+

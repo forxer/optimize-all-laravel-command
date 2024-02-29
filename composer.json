@@ -1,0 +1,35 @@
+{
+    "name": "forxer/optimize-all-laravel-command",
+    "description": "A Laravel command to optimize all caches",
+    "homepage": "https://github.com/forxer/optimize-all-laravel-command",
+    "support": {
+        "issues": "https://github.com/forxer/optimize-all-laravel-command/issues"
+    },
+    "authors": [
+        {
+            "name": "Vincent Garnier"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^10.0 || ^11.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.14.0",
+        "driftingly/rector-laravel": "^1.0",
+        "rector/rector": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "OptimizeAll\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OptimizeAll\\ServiceProvider"
+            ]
+        }
+    }
+}
